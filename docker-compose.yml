@@ -44,7 +44,7 @@ services:
       MYSQL_USER: "dbuser"
       MYSQL_PASSWORD: "dbpass"
     labels:
-      - "traefik.enable=false"
+      - "traefik.enable=true"
 
   phpmyadmin:
     image: "phpmyadmin/phpmyadmin"
